@@ -6,7 +6,6 @@ import CardGroup from "./CardGroup";
 const CardSection = () =>{
     return(
         <>
-        <h2>Card Section</h2>
         <TitleParagraf />
         <TabsCard />
         <CardGroup />
