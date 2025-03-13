@@ -1,5 +1,6 @@
 import TitleParagraf from "../common/TitleParagraf";
 import TabsCard from "../common/TabsCard";
+import CardGroup from "./CardGroup";
 
 
 const CardSection = () =>{
@@ -8,7 +9,7 @@ const CardSection = () =>{
         <h2>Card Section</h2>
         <TitleParagraf />
         <TabsCard />
-        <h3>Card Group</h3>
+        <CardGroup />
         </>
     );
 };
