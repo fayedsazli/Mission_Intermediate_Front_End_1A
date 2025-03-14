@@ -10,6 +10,6 @@ import ContainerExample from './layout/ContainerExample.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>    
-    <Home />
+    <App />
   </StrictMode>,
 )
