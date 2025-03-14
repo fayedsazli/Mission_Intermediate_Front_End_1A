@@ -3,6 +3,7 @@ import BackgroundBanner from "../layout/HomeTopBanner";
 import CardSection from "../layout/CardSection";
 import BannerText from "../common/BannerText";
 import BannerCTA from "../common/BannerCTA";
+import Footer from "../layout/Footer";
 
 
 const Home = () => {
@@ -13,9 +14,10 @@ const Home = () => {
         <BannerText />
       </BackgroundBanner>
       <CardSection />
-      <BackgroundBanner img="background2.jpeg">
+      <BackgroundBanner img="background3.jpeg">
       <BannerCTA />
       </BackgroundBanner>
+      <Footer />
     </div>
   );
 };

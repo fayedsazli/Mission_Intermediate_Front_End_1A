@@ -6,6 +6,7 @@ import Home from './pages/Home.jsx'
 import Login from './pages/Login.jsx'
 import Register from './pages/Register.jsx'
 import Navbar from './layout/Navbar.jsx'
+import ContainerExample from './layout/ContainerExample.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>    
