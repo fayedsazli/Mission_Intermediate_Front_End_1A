@@ -3,10 +3,13 @@ import RegisterForm from "../layout/RegisterForm";
 
 const Register = ({ setPage }) => {
   return (
-    <div>
+    <>
       <Navbar setPage={setPage} />
+    <div className="container d-flex justify-content-center">
       <RegisterForm />
     </div>
+    
+    </>
   );
 };
 

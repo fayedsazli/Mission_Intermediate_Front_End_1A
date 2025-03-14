@@ -9,7 +9,7 @@ const Home = ({ setPage }) => {
   return (
     <>
           <Navbar setPage={setPage} />
-    <div className="body d-flex flex-column align-items-center text-center gap-3 mb-3 px-4 py-5">
+    <div className="container d-flex flex-column gap-3 text-center my-3">
       <BackgroundBanner img="background-imgae.jpeg">
         <BannerText />
       </BackgroundBanner>

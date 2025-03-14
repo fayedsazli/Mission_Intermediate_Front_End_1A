@@ -4,7 +4,7 @@ import ContactList from "./ContactList";
 const FooterContent = () => {
   return (
     <div
-      className="container-sm d-flex flex-row justify-content-between mb-2">
+      className="container-fluid d-flex flex-row justify-content-between mb-2">
       <ContactInfo />
       <ContactList />
     </div>

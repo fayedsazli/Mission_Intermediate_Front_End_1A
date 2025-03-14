@@ -7,7 +7,8 @@ import PhoneInput from "../common/PhoneInput";
 
 const RegisterForm = () => {
   return (
-    <div className="container bg-white  w-50   text-center">
+    <div className="row w-100 justify-content-center m-0">
+    <div className="col-12 col-lg-7 bg-white text-center p-4 shadow rounded">
       <FormDesc
         judul="Pendaftaran Akun"
         deskripsi="Yuk, daftarkan akunmu sekarang juga!"
@@ -34,6 +35,8 @@ const RegisterForm = () => {
           <GoogleButton />
         </div>
       </div>
+    </div>
+
     </div>
   );
 };

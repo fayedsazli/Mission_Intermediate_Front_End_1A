@@ -1,7 +1,7 @@
 import Button from "./Button";
 const BannerText = () => {
   return (
-    <div className="d-flex justify-content-center flex-column  p-5 gap-2">
+    <div className="d-flex justify-content-center flex-column  px-0 py-3 p-lg-5 gap-2">
       <h1>
         Revolusi Pembelajaran: Temukan Ilmu Baru melalui Platform Video
         Interaktif!
