@@ -1,6 +1,8 @@
 const Navbar = ({ setPage }) => {
   return (
-    <nav className="navbar navbar-light bg-white w-100 ">
+    <nav className="navbar navbar-light bg-white w-100 mb-5">
+      <div className="container">
+
       <a className="navbar-brand ms-3" onClick={(e) => { e.preventDefault(); setPage("app"); }} href="#">
         <img
           src="/videobelajar-logo.svg"
@@ -10,6 +12,7 @@ const Navbar = ({ setPage }) => {
           alt="Videobelajar Logo Logo"
         />
       </a>
+      </div>
     </nav>
   );
 };

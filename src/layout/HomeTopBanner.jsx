@@ -3,7 +3,7 @@ import BannerText from "../common/BannerText";
 const BackgroundBanner = ({img,children}) => {
   return (
     <div
-      className="background-container d-flex align-items-center justify-content-center text-white mx-auto rounded"
+      className="container background-container p-0 d-flex align-items-center justify-content-center text-white rounded"
       style={{
         backgroundImage: `url("/${img}`,
         backgroundSize: "cover",

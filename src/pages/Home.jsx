@@ -5,11 +5,11 @@ import BannerText from "../common/BannerText";
 import BannerCTA from "../common/BannerCTA";
 import Footer from "../layout/Footer";
 
-
 const Home = ({ setPage }) => {
   return (
-    <div className="d-flex flex-column gap-3 mb-3 justify-content-center">
-      <Navbar setPage={setPage} />
+    <>
+          <Navbar setPage={setPage} />
+    <div className="body d-flex flex-column align-items-center text-center gap-3 mb-3 px-4 py-5">
       <BackgroundBanner img="background-imgae.jpeg">
         <BannerText />
       </BackgroundBanner>
@@ -17,8 +17,9 @@ const Home = ({ setPage }) => {
       <BackgroundBanner img="background3.jpeg">
       <BannerCTA />
       </BackgroundBanner>
-      <Footer />
     </div>
+    <Footer />
+    </>
   );
 };
 

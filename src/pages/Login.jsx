@@ -3,10 +3,13 @@ import FormInput from "../layout/Loginform";
 
 const Login = ({ setPage }) => {
   return (
-    <div>
+    <>
       <Navbar setPage={setPage} />
+        <div className="body d-flex flex-column align-items-center text-center gap-3 m-2 p-2">
       <FormInput />
     </div>
+
+    </>
   );
 };
 

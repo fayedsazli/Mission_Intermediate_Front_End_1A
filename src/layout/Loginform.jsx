@@ -6,7 +6,7 @@ import GoogleButton from "../common/googleButton";
 
 const FormInput = () => {
   return (
-    <div className="container bg-white my-5 w-50 p-3">
+    <div className="container  bg-white w-50 text-center">
       <FormDesc
         judul="Masuk Ke Akun"
         deskripsi="Yuk, lanjutin belajarmu di videobelajar."

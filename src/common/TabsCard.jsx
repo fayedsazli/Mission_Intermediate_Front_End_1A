@@ -1,6 +1,7 @@
 const TabsCard = () => {
   return (
-    <ul className="nav nav-underline mx-5">
+    <div className="container">
+    <ul className="align-self-start nav nav-underline">
       <li className="nav-item">
         <a className="nav-link active text-danger" aria-current="page" href="#">
           Semua Kelas
@@ -27,6 +28,8 @@ const TabsCard = () => {
         </a>
       </li>
     </ul>
+
+    </div>
   );
 };
 

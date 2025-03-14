@@ -7,7 +7,7 @@ import PhoneInput from "../common/PhoneInput";
 
 const RegisterForm = () => {
   return (
-    <div className="container bg-white my-5 w-50 p-4">
+    <div className="container bg-white  w-50   text-center">
       <FormDesc
         judul="Pendaftaran Akun"
         deskripsi="Yuk, daftarkan akunmu sekarang juga!"
