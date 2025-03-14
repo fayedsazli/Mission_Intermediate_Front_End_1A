@@ -1,10 +1,10 @@
 import Navbar from "../layout/Navbar";
 import RegisterForm from "../layout/RegisterForm";
 
-const Register = () => {
+const Register = ({ setPage }) => {
   return (
     <div>
-      <Navbar />
+      <Navbar setPage={setPage} />
       <RegisterForm />
     </div>
   );

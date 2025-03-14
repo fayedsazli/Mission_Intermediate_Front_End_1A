@@ -6,10 +6,10 @@ import BannerCTA from "../common/BannerCTA";
 import Footer from "../layout/Footer";
 
 
-const Home = () => {
+const Home = ({ setPage }) => {
   return (
     <div className="d-flex flex-column gap-3 mb-3 justify-content-center">
-      <Navbar />
+      <Navbar setPage={setPage} />
       <BackgroundBanner img="background-imgae.jpeg">
         <BannerText />
       </BackgroundBanner>

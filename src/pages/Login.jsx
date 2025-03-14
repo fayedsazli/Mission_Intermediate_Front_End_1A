@@ -1,10 +1,10 @@
 import Navbar from "../layout/Navbar";
 import FormInput from "../layout/Loginform";
 
-const Login = () => {
+const Login = ({ setPage }) => {
   return (
     <div>
-      <Navbar />
+      <Navbar setPage={setPage} />
       <FormInput />
     </div>
   );

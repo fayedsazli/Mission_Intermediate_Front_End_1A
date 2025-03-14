@@ -1,7 +1,7 @@
-const Navbar = () => {
+const Navbar = ({ setPage }) => {
   return (
     <nav className="navbar navbar-light bg-white w-100 ">
-      <a className="navbar-brand ms-3" href="#">
+      <a className="navbar-brand ms-3" onClick={(e) => { e.preventDefault(); setPage("app"); }} href="#">
         <img
           src="/videobelajar-logo.svg"
           width="237"
